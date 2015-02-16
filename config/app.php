@@ -150,6 +150,8 @@
 			 */
 			'Barryvdh\Debugbar\ServiceProvider',
 			'Illuminate\Html\HtmlServiceProvider',
+			'Intervention\Image\ImageServiceProvider',
+			'Cmgmyr\Messenger\MessengerServiceProvider'
 
 		],
 
@@ -206,7 +208,7 @@
 			'Form'      => 'Illuminate\Html\FormFacade',
 			'Html'      => 'Illuminate\Html\HtmlFacade',
 			'Socialize' => 'Laravel\Socialite\Facades\Socialite',
-
+			'Image'     => 'Intervention\Image\Facades\Image',
 
 		],
 
