@@ -205,6 +205,7 @@
 			'Debugbar'  => 'Barryvdh\Debugbar\Facade',
 			'Form'      => 'Illuminate\Html\FormFacade',
 			'Html'      => 'Illuminate\Html\HtmlFacade',
+			'Socialize' => 'Laravel\Socialite\Facades\Socialite',
 
 
 		],
