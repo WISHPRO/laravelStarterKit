@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d11e4a766fa8dbad3dcfed37ecb09169",
+    "hash": "851cbff72185a9f3eecd24ddcef6f1c5",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -260,6 +260,56 @@
                 "modules"
             ],
             "time": "2015-02-19 21:56:20"
+        },
+        {
+            "name": "caffeinated/themes",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caffeinated/themes.git",
+                "reference": "31318e3b91ab374dbc26583bcf3d9ecca63bc817"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/caffeinated/themes/zipball/31318e3b91ab374dbc26583bcf3d9ecca63bc817",
+                "reference": "31318e3b91ab374dbc26583bcf3d9ecca63bc817",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "~5.0",
+                "illuminate/filesystem": "~5.0",
+                "illuminate/support": "~5.0",
+                "illuminate/view": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "caffeinated/sapling": "Laravel 5.0 Twig integration package"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Caffeinated\\Themes\\": "src/Caffeinated/Themes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shea Lewis",
+                    "email": "shea.lewis89@gmail.com"
+                }
+            ],
+            "description": "Laravel 5 Themes",
+            "keywords": [
+                "blade",
+                "caffeinated",
+                "laravel",
+                "themes",
+                "twig"
+            ],
+            "time": "2015-02-11 18:48:40"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -2964,6 +3014,73 @@
                 "environment"
             ],
             "time": "2014-12-05 15:19:21"
+        },
+        {
+            "name": "zizaco/entrust",
+            "version": "dev-laravel-5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zizaco/entrust.git",
+                "reference": "2996663200c126ec7b6e80e6192a388571c63438"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zizaco/entrust/zipball/2996663200c126ec7b6e80e6192a388571c63438",
+                "reference": "2996663200c126ec7b6e80e6192a388571c63438",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/database": "~5.0",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "~4.1",
+                "sami/sami": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/commands"
+                ],
+                "psr-4": {
+                    "Zizaco\\Entrust\\": "src/Entrust/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Elkins",
+                    "homepage": "http://andrewelkins.com"
+                },
+                {
+                    "name": "Zizaco Zizuini",
+                    "email": "zizaco@gmail.com"
+                },
+                {
+                    "name": "Ben Batschelet",
+                    "homepage": "http://github.com/bbatsche"
+                },
+                {
+                    "name": "Michele Angioni",
+                    "email": "michele.angioni@gmail.com"
+                }
+            ],
+            "description": "This package provides a flexible way to add Role-based Permissions to Laravel",
+            "keywords": [
+                "acl",
+                "auth",
+                "illuminate",
+                "laravel",
+                "permission",
+                "roles"
+            ],
+            "time": "2015-02-11 15:40:04"
         }
     ],
     "packages-dev": [
@@ -4179,6 +4296,7 @@
         "adamwathan/eloquent-oauth": 20,
         "barryvdh/laravel-httpcache": 20,
         "caffeinated/modules": 20,
+        "zizaco/entrust": 20,
         "fzaninotto/faker": 20
     },
     "prefer-stable": false,

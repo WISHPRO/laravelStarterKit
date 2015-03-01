@@ -156,6 +156,7 @@
 			"Laracasts\Generators\GeneratorsServiceProvider",
 			'Barryvdh\HttpCache\ServiceProvider',
 			'Caffeinated\Modules\ModulesServiceProvider',
+			'Zizaco\Entrust\EntrustServiceProvider',
 
 		],
 
@@ -214,7 +215,10 @@
 			'Image'      => 'Intervention\Image\Facades\Image',
 			'OAuth'      => 'AdamWathan\EloquentOAuth\Facades\OAuth',
 			'GlideImage' => 'Spatie\Glide\GlideImageFacade',
-			'Module'     => 'Caffeinated\Modules\Facades\Module'
+			'Module'     => 'Caffeinated\Modules\Facades\Module',
+			'Entrust'    => 'Zizaco\Entrust\EntrustFacade',
+			"Role"       => "App\Role",
+			"Permission" => "App\Permission"
 
 
 		],
