@@ -9,7 +9,6 @@
 
 				<div class="panel-body">
 					You are logged in!
-					{{! dd(Auth::user()->roles()) }}
 				</div>
 			</div>
 		</div>
