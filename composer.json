@@ -9,16 +9,20 @@
 		"doctrine/dbal": "~2.5",
 		"barryvdh/laravel-debugbar": "~2.0",
 		"illuminate/html": "~5.0",
-		"laravel/socialite": "~2.0",
 		"intervention/image": "~2.0",
 		"intervention/imagecache": "dev-master",
-		"league/glide": "0.3.*@dev",
-		"cmgmyr/messenger": "~2.0",
-		"filp/whoops" : "~1.0"
+		"adamwathan/eloquent-oauth": "dev-laravel-5",
+		"filp/whoops" : "~1.0",
+		"spatie/laravel-glide": "~2.0",
+		"barryvdh/laravel-httpcache": "0.2.x@dev",
+		"caffeinated/modules": "~1.0@dev"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
-		"phpspec/phpspec": "~2.1"
+		"phpspec/phpspec": "~2.1",
+		"laracasts/generators": "~1.0",
+		"fzaninotto/faker": "1.5.*@dev",
+		"laracasts/testdummy": "~2.0"
 	},
 	"autoload": {
 		"classmap": [
