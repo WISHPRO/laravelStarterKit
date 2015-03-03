@@ -1,4 +1,5 @@
 <?php namespace App\Http\Controllers;
+//use Laracasts\TestDummy\Factory;
 
 class WelcomeController extends Controller {
 
@@ -30,6 +31,9 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
+//		Factory::$factoriesPath = base_path() . '/tests/factories';
+//		$userAttributes = Factory::build('App\User');
+//		return $userAttributes;
 		return view('welcome');
 	}
 
