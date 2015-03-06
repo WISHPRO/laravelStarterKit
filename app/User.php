@@ -58,4 +58,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 		$this->attachRole($role);
 	}
 
+
+
+
 }

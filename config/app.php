@@ -159,6 +159,7 @@
 			'Zizaco\Entrust\EntrustServiceProvider',
 			'Sofa\Revisionable\Laravel\FiveServiceProvider',
 			'Laracasts\Utilities\JavaScript\JavascriptServiceProvider',
+			'Frozennode\Administrator\AdministratorServiceProvider',
 
 		],
 

@@ -32,4 +32,9 @@ class Person extends Model {
 		'updated_at',
 	];
 
+	public function user()
+	{
+		return $this->hasOne('App\User');
+	}
+
 }
