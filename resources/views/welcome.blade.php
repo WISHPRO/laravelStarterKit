@@ -1,5 +1,7 @@
-<html>
-	<head>
+@extends('app')
+
+@section('page_styles')
+
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
 		<style>
@@ -11,12 +13,10 @@
 				color: #B0BEC5;
 				display: table;
 				font-weight: 100;
-				font-family: 'Lato';
 			}
 
 			.container {
 				text-align: center;
-				display: table-cell;
 				vertical-align: middle;
 			}
 
@@ -26,21 +26,25 @@
 			}
 
 			.title {
+			    font-family: 'Lato';
 				font-size: 96px;
 				margin-bottom: 40px;
 			}
 
 			.quote {
+				font-family: 'Lato';
 				font-size: 24px;
 			}
 		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
-			</div>
-		</div>
-	</body>
-</html>
+
+@endsection
+
+@section('content')
+<div class="container">
+	<div class="content">
+		<div class="title">Laravel 5</div>
+		<div class="quote">{{ Inspiring::quote() }}</div>
+	</div>
+</div>
+@endsection
+
