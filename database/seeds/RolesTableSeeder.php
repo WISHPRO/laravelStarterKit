@@ -2,6 +2,7 @@
 
 	use Illuminate\Database\Seeder;
      use App\Role;
+	use App\Permission;
 
 	class RolesTableSeeder extends Seeder {
 
@@ -15,11 +16,15 @@
 			);
 
 			foreach ($roles as $role) {
-				Role::create([
+				$role = Role::create([
 					"name"         => $role['name'],
 					"display_name" => $role['display_name'],
 					"description"  => $role["description"]
 				]);
+				if($role->name == 'superadmin'){
+					$permissions =  Permission::all();
+					$role->attachPermissions($permissions);
+				}
 			}
 		}
 

@@ -2,6 +2,7 @@
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
+use Zizaco\Entrust\EntrustFacade as Entrust;
 
 class Authenticate {
 
@@ -43,7 +44,11 @@ class Authenticate {
 				return redirect()->guest('auth/login');
 			}
 		}
-
+		$routeName = $request->route()->getName();
+		if (!Entrust::can($routeName)) {
+			$this->auth->logout();
+			return redirect()->back();
+		}
 		return $next($request);
 	}
 
