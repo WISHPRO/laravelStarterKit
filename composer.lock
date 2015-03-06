@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "851cbff72185a9f3eecd24ddcef6f1c5",
+    "hash": "df5440ca54e0674e49b1a685db9a0930",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -1937,16 +1937,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.14.0",
+            "version": "1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "bb87460c995d97fe55b39e65f6ffb7f64b0a941e"
+                "reference": "9b7665041754eaa9bb2622349bc9adbc1cf61cb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bb87460c995d97fe55b39e65f6ffb7f64b0a941e",
-                "reference": "bb87460c995d97fe55b39e65f6ffb7f64b0a941e",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/9b7665041754eaa9bb2622349bc9adbc1cf61cb8",
+                "reference": "9b7665041754eaa9bb2622349bc9adbc1cf61cb8",
                 "shasum": ""
             },
             "require": {
@@ -1973,13 +1973,13 @@
                 }
             ],
             "description": "A simple API extension for DateTime.",
-            "homepage": "https://github.com/briannesbitt/Carbon",
+            "homepage": "http://carbon.nesbot.com",
             "keywords": [
                 "date",
                 "datetime",
                 "time"
             ],
-            "time": "2015-02-06 05:07:29"
+            "time": "2015-03-04 04:50:11"
         },
         {
             "name": "nikic/php-parser",
@@ -2178,6 +2178,56 @@
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
             "time": "2014-12-30 13:32:42"
+        },
+        {
+            "name": "sofa/revisionable",
+            "version": "v0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jarektkaczyk/revisionable.git",
+                "reference": "fb772b743b22c46466a7b8db45cf71eb11c48f47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jarektkaczyk/revisionable/zipball/fb772b743b22c46466a7b8db45cf71eb11c48f47",
+                "reference": "fb772b743b22c46466a7b8db45cf71eb11c48f47",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "cartalyst/sentry": "~2.0",
+                "illuminate/auth": "~4.2.9",
+                "illuminate/database": "~4.2.9",
+                "mockery/mockery": "*",
+                "phpspec/phpspec": "~2.0@dev",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/migrations"
+                ],
+                "psr-4": {
+                    "Sofa\\Revisionable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jarek Tkaczyk",
+                    "email": "jarek@softonsofa.com",
+                    "homepage": "http://softonsofa.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Nice and easy way to handle revisions of your db.",
+            "time": "2015-03-04 12:20:06"
         },
         {
             "name": "spatie/laravel-glide",
@@ -3192,16 +3242,16 @@
         },
         {
             "name": "laracasts/generators",
-            "version": "1.0.3",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laracasts/Laravel-5-Generators-Extended.git",
-                "reference": "d83213c6aacc925996457dddfb5f00988df57d17"
+                "reference": "f1596fa3afc26221fc83549989769322f5cc162d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laracasts/Laravel-5-Generators-Extended/zipball/d83213c6aacc925996457dddfb5f00988df57d17",
-                "reference": "d83213c6aacc925996457dddfb5f00988df57d17",
+                "url": "https://api.github.com/repos/laracasts/Laravel-5-Generators-Extended/zipball/f1596fa3afc26221fc83549989769322f5cc162d",
+                "reference": "f1596fa3afc26221fc83549989769322f5cc162d",
                 "shasum": ""
             },
             "require": {
@@ -3232,7 +3282,7 @@
                 "generators",
                 "laravel"
             ],
-            "time": "2015-02-28 14:43:38"
+            "time": "2015-03-02 19:20:34"
         },
         {
             "name": "laracasts/testdummy",
@@ -4297,6 +4347,7 @@
         "barryvdh/laravel-httpcache": 20,
         "caffeinated/modules": 20,
         "zizaco/entrust": 20,
+        "sofa/revisionable": 20,
         "fzaninotto/faker": 20
     },
     "prefer-stable": false,

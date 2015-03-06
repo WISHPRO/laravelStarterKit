@@ -1,5 +1,5 @@
 <?php
-
+	use App\Permission;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -11,14 +11,19 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+	Route::get('/', [
+		'as' => 'welcome.index', 'uses' => 'WelcomeController@index'
+	]);
 
-Route::get('home', 'HomeController@index');
+	Route::get('home', [
+		'as' => 'home.index', 'uses' => 'HomeController@index'
+	]);
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+	Route::controllers([
+		'auth' => 'Auth\AuthController',
+		'password' => 'Auth\PasswordController',
+	]);
+
 	Route::get('mytestpage', function(){
 		return Response::make('Hello kitty!')->setTtl(60); // Cache 1 minute
 	});

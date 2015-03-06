@@ -15,10 +15,10 @@ class CreateUsersTable extends Migration {
 		Schema::create('users', function(Blueprint $table)
 		{
 			$table->increments('id')->unsigned();
-			$table->string('first_name');
-			$table->string('last_name');
-			$table->string('email')->unique();
-			$table->string('username')->unique();
+			$table->integer('person_id')->unsigned()->index();
+			$table->foreign('person_id')->references('id')->on('persons');
+			$table->string('email')->unique()->index();
+			$table->string('username')->unique()->index();
 			$table->string('password', 60);
 			$table->string('confirmation_code');
 			$table->boolean('is_confirmed')->default(false);

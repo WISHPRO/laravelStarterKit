@@ -157,6 +157,7 @@
 			'Barryvdh\HttpCache\ServiceProvider',
 			'Caffeinated\Modules\ModulesServiceProvider',
 			'Zizaco\Entrust\EntrustServiceProvider',
+			'Sofa\Revisionable\Laravel\FiveServiceProvider',
 
 		],
 

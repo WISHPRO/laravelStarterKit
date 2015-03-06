@@ -17,7 +17,8 @@
 		"barryvdh/laravel-httpcache": "0.2.x@dev",
 		"caffeinated/modules": "~1.0@dev",
 		"caffeinated/themes": "~1.1",
-		"zizaco/entrust": "dev-laravel-5"
+		"zizaco/entrust": "dev-laravel-5",
+		"sofa/revisionable": "~0.2@dev"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
