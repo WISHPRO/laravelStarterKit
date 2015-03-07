@@ -36,5 +36,9 @@ class Person extends Model {
 	{
 		return $this->hasOne('App\User');
 	}
+	public function country()
+	{
+		return $this->belongsTo('App\Country');
+	}
 
 }

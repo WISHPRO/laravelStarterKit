@@ -27,4 +27,8 @@ class Country extends Model {
 
 	protected $dates = ['deleted_at'];
 
+	public function persons(){
+		return $this->hasMany('App\Person','country_id');
+	}
+
 }

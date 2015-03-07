@@ -1,5 +1,6 @@
 <?php
-	use App\Permission;
+	use App\User;
+	use App\Person;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -25,5 +26,7 @@
 	]);
 
 	Route::get('mytestpage', function(){
-		return Response::make('Hello kitty!')->setTtl(60); // Cache 1 minute
+		$user = User::find(1);
+		dd($user->details->country);
+		return Response::make('Hello kitty!');//->setTtl(60); // Cache 1 minute
 	});
