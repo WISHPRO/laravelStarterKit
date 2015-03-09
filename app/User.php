@@ -62,6 +62,10 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 		return $this->belongsTo('App\Person','person_id');
 	}
 
+	public function getDetail($field){
+		return $this->details->$field;
+	}
+
 
 
 

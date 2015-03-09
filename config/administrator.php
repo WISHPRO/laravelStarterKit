@@ -66,8 +66,10 @@ return array(
 	 */
 	'permission'=> function()
 	{
-		//return Auth::check();
-		return Auth::user()->hasRole('superadmin');
+		if(Auth::check()){
+			return Auth::user()->hasRole('superadmin');
+		}
+
 	},
 
 	/**
