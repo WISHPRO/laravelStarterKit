@@ -39,7 +39,7 @@ return [
 	 *     '172.17.0.0/255.255.0.0'
 	 */
 	'do_not_track_ips' => [
-		'127.0.0.0/24' /// range 127.0.0.1 - 127.0.0.255
+		//'127.0.0.0/24' /// range 127.0.0.1 - 127.0.0.255
 	],
 
 	/**
@@ -93,7 +93,7 @@ return [
 	 *
 	 * Log must be enabled for this option to work.
 	 */
-	'log_sql_queries_bindings' => false,
+	'log_sql_queries_bindings' => true,
 
 	/**
 	 * Log events?
@@ -189,12 +189,12 @@ return [
 	 * A cookie may be created on your visitor device, so you can have information
 	 * on everything made using that device on your site.	 *
 	 */
-	'store_cookie_tracker' => false,
+	'store_cookie_tracker' => true,
 
 	/**
 	 * If you are storing cookies, you better change it to a name you of your own.
 	 */
-	'tracker_cookie_name' => 'please_change_this_cookie_name',
+	'tracker_cookie_name' => 'tracker_cookie',
 
 	/**
 	 * Internal tracker session name.
@@ -205,7 +205,7 @@ return [
 	 * ** IMPORTANT **
 	 *   Change the user model to your own.
 	 */
-	'user_model' => 'PragmaRX\Tracker\Vendor\Laravel\Models\User',
+	'user_model' => 'App\User',
 
 	/**
 	 * You can use your own model for every single table Tracker has.
@@ -273,14 +273,14 @@ return [
 	/**
 	 * Enable the Stats Panel?
 	 */
-	'stats_panel_enabled' => false,
+	'stats_panel_enabled' => true,
 
 	/**
 	 * Stats Panel routes before filter
 	 *
 	 * You better drop an 'auth' filter here.
 	 */
-	'stats_routes_before_filter' => '',
+	'stats_routes_before_filter' => 'auth',
 
 	/**
      * Stats Panel template path
