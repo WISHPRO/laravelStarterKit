@@ -36,26 +36,4 @@ return [
     */
     'table'        => 'revisions',
 
-
-    /*
-    |--------------------------------------------------------------------------
-    | Templates for the Presenter
-    |--------------------------------------------------------------------------
-    */
-    'templates'    => [
-
-        /*
-        |----------------------------------------------------------------------
-        | Template for the renderDiff method
-        |----------------------------------------------------------------------
-        */
-        'diff'    => [
-            'start' => '<div>',
-            'body'  => '<p class="diff-string">'
-                            .'<span class="diff-key">:key</span>: '
-                            .'<span class="diff-old">:old</span>&nbsp;&rarr;&nbsp;<span class="diff-new">:new</span>'
-                        .'</p>',
-            'end'   => '</div>',
-        ],
-    ],
 ];

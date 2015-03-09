@@ -1,11 +1,9 @@
 <?php namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Sofa\Revisionable\Laravel\RevisionableTrait;
 
 class Person extends Model {
 
-	use RevisionableTrait;
 	/**
 	 * The database table used by the model.
 	 *
@@ -24,9 +22,6 @@ class Person extends Model {
 
 	protected $nonRevisionable = [
 		'id',
-		'password',
-		'confirmation_code',
-		'remember_token',
 		'deleted_at',
 		'created_at',
 		'updated_at',

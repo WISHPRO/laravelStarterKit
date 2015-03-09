@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d32bdb9ba8dbb8047556479bf684141b",
+    "hash": "5ed2627a443834812bed0dcdf1c62182",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/adamwathan/eloquent-oauth.git",
-                "reference": "3030b01eddbcc720de6bc156c1824ebd3702540c"
+                "reference": "fae22ff46ee667c43a3d5cb24e66ce299b136bf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adamwathan/eloquent-oauth/zipball/3030b01eddbcc720de6bc156c1824ebd3702540c",
-                "reference": "3030b01eddbcc720de6bc156c1824ebd3702540c",
+                "url": "https://api.github.com/repos/adamwathan/eloquent-oauth/zipball/fae22ff46ee667c43a3d5cb24e66ce299b136bf4",
+                "reference": "fae22ff46ee667c43a3d5cb24e66ce299b136bf4",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 }
             ],
             "description": "Stupid simple OAuth authentication with Laravel and Eloquent",
-            "time": "2015-02-23 01:24:34"
+            "time": "2015-03-09 03:40:20"
         },
         {
             "name": "barryvdh/laravel-debugbar",
@@ -1637,16 +1637,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.0.13",
+            "version": "v5.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c263240daa383e6b9bd979600dc61dcb2c436d53"
+                "reference": "f61e0098151c73db9068a6be6d86bfc60b01de25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c263240daa383e6b9bd979600dc61dcb2c436d53",
-                "reference": "c263240daa383e6b9bd979600dc61dcb2c436d53",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f61e0098151c73db9068a6be6d86bfc60b01de25",
+                "reference": "f61e0098151c73db9068a6be6d86bfc60b01de25",
                 "shasum": ""
             },
             "require": {
@@ -1758,7 +1758,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-02-27 00:32:38"
+            "time": "2015-03-07 03:18:10"
         },
         {
             "name": "league/flysystem",
@@ -2323,16 +2323,16 @@
         },
         {
             "name": "sofa/revisionable",
-            "version": "v0.2.2",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jarektkaczyk/revisionable.git",
-                "reference": "fb772b743b22c46466a7b8db45cf71eb11c48f47"
+                "reference": "05e1ef8c9209550d3967601cb5d645dc643fe260"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jarektkaczyk/revisionable/zipball/fb772b743b22c46466a7b8db45cf71eb11c48f47",
-                "reference": "fb772b743b22c46466a7b8db45cf71eb11c48f47",
+                "url": "https://api.github.com/repos/jarektkaczyk/revisionable/zipball/05e1ef8c9209550d3967601cb5d645dc643fe260",
+                "reference": "05e1ef8c9209550d3967601cb5d645dc643fe260",
                 "shasum": ""
             },
             "require": {
@@ -2340,8 +2340,8 @@
             },
             "require-dev": {
                 "cartalyst/sentry": "~2.0",
-                "illuminate/auth": "~4.2.9",
-                "illuminate/database": "~4.2.9",
+                "illuminate/auth": "~5.0",
+                "illuminate/database": "~5.0",
                 "mockery/mockery": "*",
                 "phpspec/phpspec": "~2.0@dev",
                 "phpunit/phpunit": "~4.0",
@@ -2369,7 +2369,7 @@
                 }
             ],
             "description": "Nice and easy way to handle revisions of your db.",
-            "time": "2015-03-04 12:20:06"
+            "time": "2015-03-09 00:23:33"
         },
         {
             "name": "spatie/laravel-glide",
