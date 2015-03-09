@@ -23,7 +23,8 @@
 		"frozennode/administrator": "5.*",
 		"mathiasgrimm/laravel-dot-env-gen": "dev-master",
 		"pragmarx/tracker": "~1.0",
-		"geoip/geoip": "~1.14"
+		"geoip/geoip": "~1.14",
+		"maatwebsite/excel": "~2.0.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",

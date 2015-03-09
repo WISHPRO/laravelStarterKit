@@ -162,6 +162,7 @@
 			'Sofa\Revisionable\Laravel\ServiceProvider',
 			'MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider',
 			'PragmaRX\Tracker\Vendor\Laravel\ServiceProvider',
+			'Maatwebsite\Excel\ExcelServiceProvider',
 		],
 
 		/*
@@ -224,6 +225,7 @@
 			"Role"       => "App\Role",
 			"Permission" => "App\Permission",
 			'Tracker'    => 'PragmaRX\Tracker\Vendor\Laravel\Facade',
+			'Excel'      => 'Maatwebsite\Excel\Facades\Excel',
 		],
 
 	];
