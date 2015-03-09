@@ -24,7 +24,7 @@ class CreateUsersTable extends Migration {
 			$table->boolean('is_confirmed')->default(false);
 			$table->string('display_name', 50)->nullable();
 			$table->enum('notify', ['y', 'n'])->default('y');
-			$table->date('last_login')->nullable();
+			$table->timestamp('last_login')->nullable();
 			$table->boolean('is_online')->default(false);
 			$table->boolean('is_active')->default(false);
 			$table->date('last_active_time')->nullable();

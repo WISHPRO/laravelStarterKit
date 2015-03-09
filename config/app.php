@@ -163,6 +163,7 @@
 			'MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider',
 			'PragmaRX\Tracker\Vendor\Laravel\ServiceProvider',
 			'Maatwebsite\Excel\ExcelServiceProvider',
+			'Lord\Laroute\LarouteServiceProvider',
 		],
 
 		/*
