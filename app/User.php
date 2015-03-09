@@ -8,10 +8,12 @@ use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 use Illuminate\Database\Eloquent\SoftDeletes as SoftDeletes;
 use Zizaco\Entrust\Traits\EntrustUserTrait;
 use App\Role;
+use Sofa\Revisionable\Laravel\RevisionableTrait; // trait
+use Sofa\Revisionable\Revisionable; // interface
 
-class User extends Model implements AuthenticatableContract, CanResetPasswordContract {
+class User extends Model implements AuthenticatableContract, CanResetPasswordContract, Revisionable {
 
-	use Authenticatable, CanResetPassword, SoftDeletes, EntrustUserTrait;
+	use Authenticatable, CanResetPassword, SoftDeletes, EntrustUserTrait, RevisionableTrait;
 
 	/**
 	 * The database table used by the model.

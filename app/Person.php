@@ -1,9 +1,12 @@
 <?php namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Sofa\Revisionable\Laravel\RevisionableTrait; // trait
+use Sofa\Revisionable\Revisionable; // interface
 
-class Person extends Model {
+class Person extends Model implements Revisionable {
 
+	use RevisionableTrait;
 	/**
 	 * The database table used by the model.
 	 *

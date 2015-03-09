@@ -26,7 +26,7 @@ return [
     |  - id for illuminate
     |  - login field (email) for sentry
     */
-    'userfield'    => null,
+    'userfield'    => 'id',
 
 
     /*
