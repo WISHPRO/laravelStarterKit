@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5ed2627a443834812bed0dcdf1c62182",
+    "hash": "6b12fab7787bb35dcf5170ac26555954",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -1903,6 +1903,48 @@
                 "processing"
             ],
             "time": "2015-02-26 23:03:26"
+        },
+        {
+            "name": "mathiasgrimm/laravel-dot-env-gen",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mathiasgrimm/laravel-dot-env-gen.git",
+                "reference": "417a444cde2aac07465b60e9f92c494004f76552"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mathiasgrimm/laravel-dot-env-gen/zipball/417a444cde2aac07465b60e9f92c494004f76552",
+                "reference": "417a444cde2aac07465b60e9f92c494004f76552",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MathiasGrimm\\LaravelDotEnvGen\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Mathias Grimm",
+                    "email": "mathiasgrimm@gmail.com",
+                    "homepage": "http://phpEmpregos.com"
+                }
+            ],
+            "description": "A Laravel 5 artisan command to generate a .env.gen file based on the existing project.",
+            "homepage": "https://github.com/mathiasgrimm/laravel-dot-env-gen/",
+            "keywords": [
+                "artisan",
+                "command",
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2015-03-07 13:03:36"
         },
         {
             "name": "maximebf/debugbar",
@@ -4490,6 +4532,7 @@
         "caffeinated/modules": 20,
         "zizaco/entrust": 20,
         "sofa/revisionable": 20,
+        "mathiasgrimm/laravel-dot-env-gen": 20,
         "fzaninotto/faker": 20
     },
     "prefer-stable": false,

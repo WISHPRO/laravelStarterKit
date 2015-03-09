@@ -160,7 +160,7 @@
 			'Laracasts\Utilities\JavaScript\JavascriptServiceProvider',
 			'Frozennode\Administrator\AdministratorServiceProvider',
 			'Sofa\Revisionable\Laravel\ServiceProvider',
-
+			'MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider',
 		],
 
 		/*
