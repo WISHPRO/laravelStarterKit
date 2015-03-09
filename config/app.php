@@ -164,6 +164,7 @@
 			'PragmaRX\Tracker\Vendor\Laravel\ServiceProvider',
 			'Maatwebsite\Excel\ExcelServiceProvider',
 			'Lord\Laroute\LarouteServiceProvider',
+			'Stolz\HtmlTidy\ServiceProvider',
 		],
 
 		/*

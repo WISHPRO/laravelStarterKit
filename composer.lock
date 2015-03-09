@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cc356a6081b5407a5d860345d5b5312b",
+    "hash": "943dea44525646f4272c6c400dea568a",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -5222,6 +5222,63 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2014-12-15 14:25:24"
+        },
+        {
+            "name": "stolz/laravel-html-tidy",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stolz/laravel-html-tidy.git",
+                "reference": "0eaae4356addacda65457ff1e3791deabc0cc6da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stolz/laravel-html-tidy/zipball/0eaae4356addacda65457ff1e3791deabc0cc6da",
+                "reference": "0eaae4356addacda65457ff1e3791deabc0cc6da",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tidy": "*",
+                "illuminate/http": "5.*",
+                "illuminate/support": "5.*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stolz\\HtmlTidy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stolz",
+                    "homepage": "https://github.com/Stolz/laravel-html-tidy",
+                    "role": "developer"
+                }
+            ],
+            "description": "HTML Tidy middleware for Laravel",
+            "keywords": [
+                "HTML5",
+                "HTMLtidy",
+                "Purifier",
+                "beautifier",
+                "filter",
+                "html",
+                "htmlpurifier",
+                "indent",
+                "laravel",
+                "markup",
+                "middleware",
+                "tidy"
+            ],
+            "time": "2015-02-05 13:53:25"
         }
     ],
     "aliases": [],
