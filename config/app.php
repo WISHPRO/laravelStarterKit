@@ -161,6 +161,7 @@
 			'Frozennode\Administrator\AdministratorServiceProvider',
 			'Sofa\Revisionable\Laravel\ServiceProvider',
 			'MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider',
+			'PragmaRX\Tracker\Vendor\Laravel\ServiceProvider',
 		],
 
 		/*
@@ -221,9 +222,8 @@
 			'Module'     => 'Caffeinated\Modules\Facades\Module',
 			'Entrust'    => 'Zizaco\Entrust\EntrustFacade',
 			"Role"       => "App\Role",
-			"Permission" => "App\Permission"
-
-
+			"Permission" => "App\Permission",
+			'Tracker'    => 'PragmaRX\Tracker\Vendor\Laravel\Facade',
 		],
 
 	];

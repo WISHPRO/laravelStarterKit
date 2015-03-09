@@ -21,7 +21,9 @@
 		"sofa/revisionable": "~1.0@dev",
 		"laracasts/utilities": "~2.0",
 		"frozennode/administrator": "5.*",
-		"mathiasgrimm/laravel-dot-env-gen": "dev-master"
+		"mathiasgrimm/laravel-dot-env-gen": "dev-master",
+		"pragmarx/tracker": "~1.0",
+		"geoip/geoip": "~1.14"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
@@ -49,6 +51,7 @@
 			"php artisan optimize"
 		],
 		"post-update-cmd": [
+		    "php artisan tracker:updateparser",
 			"php artisan clear-compiled",
 			"php artisan optimize"
 		],

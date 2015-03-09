@@ -10,3 +10,7 @@
 7. Bower update
 
 
+php artisan migrate --path database/migrations/tracker --database tracker
+//sudo apt-get purge php5-geoip
+
+
