@@ -63,6 +63,7 @@ return [
 		"/line.*<script> inserting \"type\" attribute\n?/",
 		"/line.*<input> proprietary attribute \"autocomplete\"\n?/",
 		"/line.*<input> proprietary attribute \"autofocus\"\n?/",
+		"/line.*<input> attribute \"type\" has invalid value \"email\"\n?/",
 	],
 
 ];
