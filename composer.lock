@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "943dea44525646f4272c6c400dea568a",
+    "hash": "ae17e574edb4775e774ee88f9e154569",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -52,60 +52,6 @@
             ],
             "description": "Stupid simple OAuth authentication with Laravel and Eloquent",
             "time": "2015-03-09 03:40:20"
-        },
-        {
-            "name": "barryvdh/laravel-debugbar",
-            "version": "v2.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "7bdf8acf3b955f4fcf922e74abdfdec370369196"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/7bdf8acf3b955f4fcf922e74abdfdec370369196",
-                "reference": "7bdf8acf3b955f4fcf922e74abdfdec370369196",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "5.0.x",
-                "maximebf/debugbar": "~1.10.2",
-                "php": ">=5.4.0",
-                "symfony/finder": "~2.6"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Barryvdh\\Debugbar\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "PHP Debugbar integration for Laravel",
-            "keywords": [
-                "debug",
-                "debugbar",
-                "laravel",
-                "profiler",
-                "webprofiler"
-            ],
-            "time": "2015-02-19 10:26:39"
         },
         {
             "name": "barryvdh/laravel-httpcache",
@@ -982,16 +928,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "a85fab9a98f1f9b8ebcdbe71733f0d910e5b9adf"
+                "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/a85fab9a98f1f9b8ebcdbe71733f0d910e5b9adf",
-                "reference": "a85fab9a98f1f9b8ebcdbe71733f0d910e5b9adf",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/dcce91553e2e056857f1ea844949e9a8a71b613d",
+                "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d",
                 "shasum": ""
             },
             "require": {
@@ -1036,7 +982,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2014-10-26 09:05:09"
+            "time": "2015-02-17 15:50:31"
         },
         {
             "name": "frozennode/administrator",
@@ -1999,57 +1945,6 @@
             "time": "2015-02-26 23:03:26"
         },
         {
-            "name": "lord/laroute",
-            "version": "v2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aaronlord/laroute.git",
-                "reference": "ece0c2d9de2ccc4bab07c21c337e50ef80969e56"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aaronlord/laroute/zipball/ece0c2d9de2ccc4bab07c21c337e50ef80969e56",
-                "reference": "ece0c2d9de2ccc4bab07c21c337e50ef80969e56",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/config": "5.0.*",
-                "illuminate/console": "5.0.*",
-                "illuminate/filesystem": "5.0.*",
-                "illuminate/routing": "5.0.*",
-                "illuminate/support": "5.0.*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "dev-master",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Lord\\Laroute\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aaron Lord",
-                    "email": "hello@aaronlord.is"
-                }
-            ],
-            "description": "Access Laravels URL/Route helper functions, from JavaScript.",
-            "keywords": [
-                "javascript",
-                "laravel",
-                "routes",
-                "routing"
-            ],
-            "time": "2015-02-13 18:38:45"
-        },
-        {
             "name": "maatwebsite/excel",
             "version": "2.0.1",
             "source": {
@@ -2115,104 +2010,6 @@
                 "laravel"
             ],
             "time": "2015-02-16 11:12:55"
-        },
-        {
-            "name": "mathiasgrimm/laravel-dot-env-gen",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mathiasgrimm/laravel-dot-env-gen.git",
-                "reference": "417a444cde2aac07465b60e9f92c494004f76552"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mathiasgrimm/laravel-dot-env-gen/zipball/417a444cde2aac07465b60e9f92c494004f76552",
-                "reference": "417a444cde2aac07465b60e9f92c494004f76552",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MathiasGrimm\\LaravelDotEnvGen\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Mathias Grimm",
-                    "email": "mathiasgrimm@gmail.com",
-                    "homepage": "http://phpEmpregos.com"
-                }
-            ],
-            "description": "A Laravel 5 artisan command to generate a .env.gen file based on the existing project.",
-            "homepage": "https://github.com/mathiasgrimm/laravel-dot-env-gen/",
-            "keywords": [
-                "artisan",
-                "command",
-                "dotenv",
-                "env",
-                "environment"
-            ],
-            "time": "2015-03-07 13:03:36"
-        },
-        {
-            "name": "maximebf/debugbar",
-            "version": "v1.10.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/maximebf/php-debugbar.git",
-                "reference": "7b2006e6e095126b5a061ec33fca3d90ea8a8219"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/7b2006e6e095126b5a061ec33fca3d90ea8a8219",
-                "reference": "7b2006e6e095126b5a061ec33fca3d90ea8a8219",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "psr/log": "~1.0",
-                "symfony/var-dumper": "~2.6"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "suggest": {
-                "kriswallsmith/assetic": "The best way to manage assets",
-                "monolog/monolog": "Log using Monolog",
-                "predis/predis": "Redis storage"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.10-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "DebugBar": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Maxime Bouroumeau-Fuseau",
-                    "email": "maxime.bouroumeau@gmail.com",
-                    "homepage": "http://maximebf.com"
-                }
-            ],
-            "description": "Debug bar in the browser for php application",
-            "homepage": "https://github.com/maximebf/php-debugbar",
-            "keywords": [
-                "debug"
-            ],
-            "time": "2015-02-05 07:51:20"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -4067,6 +3864,60 @@
     ],
     "packages-dev": [
         {
+            "name": "barryvdh/laravel-debugbar",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/laravel-debugbar.git",
+                "reference": "7bdf8acf3b955f4fcf922e74abdfdec370369196"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/7bdf8acf3b955f4fcf922e74abdfdec370369196",
+                "reference": "7bdf8acf3b955f4fcf922e74abdfdec370369196",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.0.x",
+                "maximebf/debugbar": "~1.10.2",
+                "php": ">=5.4.0",
+                "symfony/finder": "~2.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Barryvdh\\Debugbar\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "PHP Debugbar integration for Laravel",
+            "keywords": [
+                "debug",
+                "debugbar",
+                "laravel",
+                "profiler",
+                "webprofiler"
+            ],
+            "time": "2015-02-19 10:26:39"
+        },
+        {
             "name": "doctrine/instantiator",
             "version": "1.0.4",
             "source": {
@@ -4262,6 +4113,155 @@
                 "testing"
             ],
             "time": "2015-01-07 19:32:02"
+        },
+        {
+            "name": "lord/laroute",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aaronlord/laroute.git",
+                "reference": "ece0c2d9de2ccc4bab07c21c337e50ef80969e56"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aaronlord/laroute/zipball/ece0c2d9de2ccc4bab07c21c337e50ef80969e56",
+                "reference": "ece0c2d9de2ccc4bab07c21c337e50ef80969e56",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "5.0.*",
+                "illuminate/console": "5.0.*",
+                "illuminate/filesystem": "5.0.*",
+                "illuminate/routing": "5.0.*",
+                "illuminate/support": "5.0.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lord\\Laroute\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Lord",
+                    "email": "hello@aaronlord.is"
+                }
+            ],
+            "description": "Access Laravels URL/Route helper functions, from JavaScript.",
+            "keywords": [
+                "javascript",
+                "laravel",
+                "routes",
+                "routing"
+            ],
+            "time": "2015-02-13 18:38:45"
+        },
+        {
+            "name": "mathiasgrimm/laravel-dot-env-gen",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mathiasgrimm/laravel-dot-env-gen.git",
+                "reference": "417a444cde2aac07465b60e9f92c494004f76552"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mathiasgrimm/laravel-dot-env-gen/zipball/417a444cde2aac07465b60e9f92c494004f76552",
+                "reference": "417a444cde2aac07465b60e9f92c494004f76552",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MathiasGrimm\\LaravelDotEnvGen\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Mathias Grimm",
+                    "email": "mathiasgrimm@gmail.com",
+                    "homepage": "http://phpEmpregos.com"
+                }
+            ],
+            "description": "A Laravel 5 artisan command to generate a .env.gen file based on the existing project.",
+            "homepage": "https://github.com/mathiasgrimm/laravel-dot-env-gen/",
+            "keywords": [
+                "artisan",
+                "command",
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2015-03-07 13:03:36"
+        },
+        {
+            "name": "maximebf/debugbar",
+            "version": "v1.10.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximebf/php-debugbar.git",
+                "reference": "7b2006e6e095126b5a061ec33fca3d90ea8a8219"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/7b2006e6e095126b5a061ec33fca3d90ea8a8219",
+                "reference": "7b2006e6e095126b5a061ec33fca3d90ea8a8219",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0",
+                "symfony/var-dumper": "~2.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "kriswallsmith/assetic": "The best way to manage assets",
+                "monolog/monolog": "Log using Monolog",
+                "predis/predis": "Redis storage"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "DebugBar": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Bouroumeau-Fuseau",
+                    "email": "maxime.bouroumeau@gmail.com",
+                    "homepage": "http://maximebf.com"
+                }
+            ],
+            "description": "Debug bar in the browser for php application",
+            "homepage": "https://github.com/maximebf/php-debugbar",
+            "keywords": [
+                "debug"
+            ],
+            "time": "2015-02-05 07:51:20"
         },
         {
             "name": "phpdocumentor/reflection-docblock",

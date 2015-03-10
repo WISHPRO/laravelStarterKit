@@ -148,23 +148,29 @@
 			/*
 			 * First-party or Third-party Service Providers...
 			 */
+			/*
+			 *  Dev environment specific
+			 */
 			'Barryvdh\Debugbar\ServiceProvider',
+			'Laracasts\Generators\GeneratorsServiceProvider',
+			'MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider',
+			'Lord\Laroute\LarouteServiceProvider',
+			'Stolz\HtmlTidy\ServiceProvider',
+			/*
+			 *  live environment specific
+			 */
 			'Illuminate\Html\HtmlServiceProvider',
 			'Intervention\Image\ImageServiceProvider',
 			'AdamWathan\EloquentOAuth\EloquentOAuthServiceProvider',
 			'Spatie\Glide\GlideServiceProvider',
-			"Laracasts\Generators\GeneratorsServiceProvider",
 			'Barryvdh\HttpCache\ServiceProvider',
 			'Caffeinated\Modules\ModulesServiceProvider',
 			'Zizaco\Entrust\EntrustServiceProvider',
 			'Laracasts\Utilities\JavaScript\JavascriptServiceProvider',
 			'Frozennode\Administrator\AdministratorServiceProvider',
 			'Sofa\Revisionable\Laravel\ServiceProvider',
-			'MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider',
 			'PragmaRX\Tracker\Vendor\Laravel\ServiceProvider',
 			'Maatwebsite\Excel\ExcelServiceProvider',
-			'Lord\Laroute\LarouteServiceProvider',
-			'Stolz\HtmlTidy\ServiceProvider',
 		],
 
 		/*
@@ -216,7 +222,13 @@
 			/*
 			 * First-party or Third-party Facades...
 			 */
+			/*
+			 *  Dev environment specific
+			 */
 			'Debugbar'   => 'Barryvdh\Debugbar\Facade',
+			/*
+			 *  Live environment specific
+			 */
 			'Form'       => 'Illuminate\Html\FormFacade',
 			'Html'       => 'Illuminate\Html\HtmlFacade',
 			'Image'      => 'Intervention\Image\Facades\Image',
@@ -224,8 +236,8 @@
 			'GlideImage' => 'Spatie\Glide\GlideImageFacade',
 			'Module'     => 'Caffeinated\Modules\Facades\Module',
 			'Entrust'    => 'Zizaco\Entrust\EntrustFacade',
-			"Role"       => "App\Role",
-			"Permission" => "App\Permission",
+			'Role'       => 'App\Role',
+			'Permission' => 'App\Permission',
 			'Tracker'    => 'PragmaRX\Tracker\Vendor\Laravel\Facade',
 			'Excel'      => 'Maatwebsite\Excel\Facades\Excel',
 		],

@@ -7,7 +7,6 @@
 	"require": {
 		"laravel/framework": "5.0.*",
 		"doctrine/dbal": "~2.5",
-		"barryvdh/laravel-debugbar": "~2.0",
 		"illuminate/html": "~5.0",
 		"intervention/image": "~2.0",
 		"intervention/imagecache": "dev-master",
@@ -21,19 +20,20 @@
 		"sofa/revisionable": "~1.0@dev",
 		"laracasts/utilities": "~2.0",
 		"frozennode/administrator": "5.*",
-		"mathiasgrimm/laravel-dot-env-gen": "dev-master",
 		"pragmarx/tracker": "~1.0",
 		"geoip/geoip": "~1.14",
-		"maatwebsite/excel": "~2.0.0",
-		"lord/laroute" : "2.*"
+		"maatwebsite/excel": "~2.0.0"
 	},
 	"require-dev": {
+	    "barryvdh/laravel-debugbar": "~2.0",
+		"mathiasgrimm/laravel-dot-env-gen": "dev-master",
+		"lord/laroute" : "2.*",
+		"stolz/laravel-html-tidy": "0.1.*",
 		"phpunit/phpunit": "~4.0",
 		"phpspec/phpspec": "~2.1",
 		"laracasts/generators": "~1.0",
 		"fzaninotto/faker": "1.5.*@dev",
-		"laracasts/testdummy": "~2.0",
-		"stolz/laravel-html-tidy": "0.1.*"
+		"laracasts/testdummy": "~2.0"
 	},
 	"autoload": {
 		"classmap": [
