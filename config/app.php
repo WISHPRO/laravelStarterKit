@@ -148,19 +148,13 @@
 			/*
 			 * First-party or Third-party Service Providers...
 			 */
-			/*
-			 *  Dev environment specific
-			 */
-			'Barryvdh\Debugbar\ServiceProvider',
-			'Laracasts\Generators\GeneratorsServiceProvider',
-			'MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider',
-			'Lord\Laroute\LarouteServiceProvider',
-			'Stolz\HtmlTidy\ServiceProvider',
+			
 			/*
 			 *  live environment specific
 			 */
 			'Illuminate\Html\HtmlServiceProvider',
 			'Intervention\Image\ImageServiceProvider',
+			'Barryvdh\Debugbar\ServiceProvider',
 			'AdamWathan\EloquentOAuth\EloquentOAuthServiceProvider',
 			'Spatie\Glide\GlideServiceProvider',
 			'Barryvdh\HttpCache\ServiceProvider',

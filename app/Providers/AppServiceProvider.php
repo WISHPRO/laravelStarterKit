@@ -29,6 +29,13 @@ class AppServiceProvider extends ServiceProvider {
 			'Illuminate\Contracts\Auth\Registrar',
 			'App\Services\Registrar'
 		);
+
+		if (env('APP_DEBUG')) {
+			$this->app->register('Laracasts\Generators\GeneratorsServiceProvider');
+			$this->app->register('MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider');
+			$this->app->register('Lord\Laroute\LarouteServiceProvider');
+			$this->app->register('Stolz\HtmlTidy\ServiceProvider');
+		}
 	}
 
 }
