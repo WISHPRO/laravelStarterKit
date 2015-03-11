@@ -64,6 +64,8 @@ return [
 		"/line.*<input> proprietary attribute \"autocomplete\"\n?/",
 		"/line.*<input> proprietary attribute \"autofocus\"\n?/",
 		"/line.*<input> attribute \"type\" has invalid value \"email\"\n?/",
+		"/line.*proprietary attribute \"role\"\n?/",
+		"/line.*proprietary attribute \"aria-expanded\"\n?/",
 	],
 
 ];
