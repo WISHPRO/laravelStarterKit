@@ -148,7 +148,7 @@
 			/*
 			 * First-party or Third-party Service Providers...
 			 */
-			
+
 			/*
 			 *  live environment specific
 			 */
@@ -165,6 +165,7 @@
 			'Sofa\Revisionable\Laravel\ServiceProvider',
 			'PragmaRX\Tracker\Vendor\Laravel\ServiceProvider',
 			'Maatwebsite\Excel\ExcelServiceProvider',
+			'Greggilbert\Recaptcha\RecaptchaServiceProvider',
 		],
 
 		/*
@@ -234,6 +235,7 @@
 			'Permission' => 'App\Permission',
 			'Tracker'    => 'PragmaRX\Tracker\Vendor\Laravel\Facade',
 			'Excel'      => 'Maatwebsite\Excel\Facades\Excel',
+			'Recaptcha'  => 'Greggilbert\Recaptcha\Facades\Recaptcha',
 		],
 
 	];

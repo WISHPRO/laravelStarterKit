@@ -22,6 +22,7 @@
 		"frozennode/administrator": "5.*",
 		"pragmarx/tracker": "~1.0",
 		"geoip/geoip": "~1.14",
+		"greggilbert/recaptcha": "dev-master",
 		"maatwebsite/excel": "~2.0.0"
 	},
 	"require-dev": {

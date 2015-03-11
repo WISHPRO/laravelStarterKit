@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ae17e574edb4775e774ee88f9e154569",
+    "hash": "9696a39732f00c8d640ada2128277a0c",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -1080,6 +1080,58 @@
                 "maxmind"
             ],
             "time": "2013-11-05 21:52:33"
+        },
+        {
+            "name": "greggilbert/recaptcha",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/greggilbert/recaptcha.git",
+                "reference": "a1d3e8b73998e80571eb999c82361884c450373d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/greggilbert/recaptcha/zipball/a1d3e8b73998e80571eb999c82361884c450373d",
+                "reference": "a1d3e8b73998e80571eb999c82361884c450373d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.0.*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/migrations"
+                ],
+                "psr-4": {
+                    "Greggilbert\\Recaptcha\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Gilbert",
+                    "email": "greg@greg-gilbert.com"
+                }
+            ],
+            "description": "reCAPTCHA Validator for Laravel 5",
+            "homepage": "http://github.com/greggilbert/recaptcha",
+            "keywords": [
+                "captcha",
+                "laravel",
+                "laravel5",
+                "recaptcha"
+            ],
+            "time": "2015-02-25 14:46:33"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3978,12 +4030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "40426f77f030b6fb45951be920ff1036b2f423d2"
+                "reference": "5f91d63d78036ee445601ce0c606cdceb0be55d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/40426f77f030b6fb45951be920ff1036b2f423d2",
-                "reference": "40426f77f030b6fb45951be920ff1036b2f423d2",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/5f91d63d78036ee445601ce0c606cdceb0be55d2",
+                "reference": "5f91d63d78036ee445601ce0c606cdceb0be55d2",
                 "shasum": ""
             },
             "require": {
@@ -4022,7 +4074,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-02-27 08:30:07"
+            "time": "2015-03-11 13:17:18"
         },
         {
             "name": "laracasts/generators",
@@ -5291,6 +5343,7 @@
         "caffeinated/modules": 20,
         "zizaco/entrust": 20,
         "sofa/revisionable": 20,
+        "greggilbert/recaptcha": 20,
         "mathiasgrimm/laravel-dot-env-gen": 20,
         "fzaninotto/faker": 20
     },
