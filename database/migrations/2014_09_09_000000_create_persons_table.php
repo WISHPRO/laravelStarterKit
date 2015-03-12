@@ -16,7 +16,7 @@ class CreatePersonsTable extends Migration {
             $table->increments('id');
             $table->string('first_name', 60)->nullable();
             $table->string('last_name', 60)->nullable();
-            $table->date('dob')->nullable();
+            $table->timestamp('dob')->nullable();
 		  $table->text('bio')->nullable();
             $table->string('avatar')->nullable();
 		  $table->string('city')->nullable();

@@ -21,7 +21,21 @@ class Person extends Model implements Revisionable {
 	 */
 	protected $fillable = ['country_id','first_name', 'last_name', 'dob', 'bio', 'avatar', 'city', 'state', 'country', 'postal_code', 'gender', 'primary_email', 'secondary_email', 'mobile_number', 'telephone_number'];
 
-	protected $dates = ['deleted_at'];
+	/**
+	 * The attributes that should be casted to Carbon Date types.
+	 *
+	 * @var array
+	 */
+	protected $dates = ['deleted_at','dob'];
+
+	/**
+	 * The attributes that should be casted to native types.
+	 *
+	 * @var array
+	 */
+	protected $casts = [
+		//'key' => 'type',
+	];
 
 	protected $nonRevisionable = [
 		'id',

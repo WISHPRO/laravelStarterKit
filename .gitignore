@@ -1,6 +1,6 @@
 /vendor
 /node_modules
-/bower_components
+/resources/assets/bower/
 .idea
 .env
 .env.gen

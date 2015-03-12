@@ -7,10 +7,13 @@
 4. npm install
 5. Install Bower globally
 6. Install Bower locally
-7. Bower update
+7. bower install
 
 
 php artisan migrate --path database/migrations/tracker --database tracker
+
+laroute:generate 
+
 //sudo apt-get purge php5-geoip
 // php artisan laroute:generate
 

@@ -25,7 +25,21 @@ class Country extends Model {
 	 */
 	protected $hidden = ['password', 'remember_token'];
 
+	/**
+	 * The attributes that should be casted to Carbon Date types.
+	 *
+	 * @var array
+	 */
 	protected $dates = ['deleted_at'];
+
+	/**
+	 * The attributes that should be casted to native types.
+	 *
+	 * @var array
+	 */
+	protected $casts = [
+		//'key' => 'type',
+	];
 
 	public function persons(){
 		return $this->hasMany('App\Person','country_id');
