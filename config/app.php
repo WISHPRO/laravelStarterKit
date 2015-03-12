@@ -159,6 +159,8 @@
 			'Spatie\Glide\GlideServiceProvider',
 			'Barryvdh\HttpCache\ServiceProvider',
 			'Caffeinated\Modules\ModulesServiceProvider',
+			'Caffeinated\Themes\ThemesServiceProvider',
+			'Caffeinated\Menus\MenusServiceProvider',
 			'Zizaco\Entrust\EntrustServiceProvider',
 			'Laracasts\Utilities\JavaScript\JavascriptServiceProvider',
 			'Frozennode\Administrator\AdministratorServiceProvider',
@@ -166,6 +168,7 @@
 			'PragmaRX\Tracker\Vendor\Laravel\ServiceProvider',
 			'Maatwebsite\Excel\ExcelServiceProvider',
 			'Greggilbert\Recaptcha\RecaptchaServiceProvider',
+			'Lanz\Commentable\CommentableServiceProvider',
 		],
 
 		/*
@@ -230,12 +233,16 @@
 			'OAuth'      => 'AdamWathan\EloquentOAuth\Facades\OAuth',
 			'GlideImage' => 'Spatie\Glide\GlideImageFacade',
 			'Module'     => 'Caffeinated\Modules\Facades\Module',
+			'Theme'      => 'Caffeinated\Themes\Facades\Theme',
+			'Component'  => 'Caffeinated\Themes\Facades\Component',
+			'Menu'       => 'Caffeinated\Menus\Facades\Menu',
 			'Entrust'    => 'Zizaco\Entrust\EntrustFacade',
 			'Role'       => 'App\Role',
 			'Permission' => 'App\Permission',
 			'Tracker'    => 'PragmaRX\Tracker\Vendor\Laravel\Facade',
 			'Excel'      => 'Maatwebsite\Excel\Facades\Excel',
 			'Recaptcha'  => 'Greggilbert\Recaptcha\Facades\Recaptcha',
+
 		],
 
 	];
