@@ -177,7 +177,8 @@
 			'Greggilbert\Recaptcha\RecaptchaServiceProvider',
 			'Lanz\Commentable\CommentableServiceProvider',
 			'Barryvdh\HttpCache\ServiceProvider',
-
+			'Conner\Likeable\LikeableServiceProvider',
+			'Conner\Tagging\TaggingServiceProvider',
 
 		],
 
