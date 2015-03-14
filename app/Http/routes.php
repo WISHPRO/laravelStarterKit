@@ -12,6 +12,15 @@
 |
 */
 
+	Event::listen('auth.login', function($event)
+	{
+	//	echo 'user has logged in';exit;
+	});
+	Event::listen('auth.logout', function($event)
+	{
+	//	echo 'user has logged out';exit;
+	});
+
 	Route::get('/', [
 		'as' => 'welcome.index', 'uses' => 'WelcomeController@index'
 	]);

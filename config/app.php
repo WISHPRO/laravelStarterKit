@@ -146,6 +146,11 @@
 			'App\Providers\RouteServiceProvider',
 
 			/*
+			 * Own Service Providers...
+			 */
+			'App\Providers\ViewComposerServiceProvider',
+
+			/*
 			 * First-party or Third-party Service Providers...
 			 */
 
@@ -155,20 +160,25 @@
 			'Illuminate\Html\HtmlServiceProvider',
 			'Intervention\Image\ImageServiceProvider',
 			'Barryvdh\Debugbar\ServiceProvider',
-			'AdamWathan\EloquentOAuth\EloquentOAuthServiceProvider',
 			'Spatie\Glide\GlideServiceProvider',
-			'Barryvdh\HttpCache\ServiceProvider',
 			'Caffeinated\Modules\ModulesServiceProvider',
 			'Caffeinated\Themes\ThemesServiceProvider',
 			'Caffeinated\Menus\MenusServiceProvider',
 			'Zizaco\Entrust\EntrustServiceProvider',
 			'Laracasts\Utilities\JavaScript\JavascriptServiceProvider',
+			/*
+			 *  live environment specific but may be optional
+			 */
+			'AdamWathan\EloquentOAuth\EloquentOAuthServiceProvider',
 			'Frozennode\Administrator\AdministratorServiceProvider',
 			'Sofa\Revisionable\Laravel\ServiceProvider',
 			'PragmaRX\Tracker\Vendor\Laravel\ServiceProvider',
 			'Maatwebsite\Excel\ExcelServiceProvider',
 			'Greggilbert\Recaptcha\RecaptchaServiceProvider',
 			'Lanz\Commentable\CommentableServiceProvider',
+			'Barryvdh\HttpCache\ServiceProvider',
+
+
 		],
 
 		/*
@@ -230,7 +240,6 @@
 			'Form'       => 'Illuminate\Html\FormFacade',
 			'Html'       => 'Illuminate\Html\HtmlFacade',
 			'Image'      => 'Intervention\Image\Facades\Image',
-			'OAuth'      => 'AdamWathan\EloquentOAuth\Facades\OAuth',
 			'GlideImage' => 'Spatie\Glide\GlideImageFacade',
 			'Module'     => 'Caffeinated\Modules\Facades\Module',
 			'Theme'      => 'Caffeinated\Themes\Facades\Theme',
@@ -239,6 +248,11 @@
 			'Entrust'    => 'Zizaco\Entrust\EntrustFacade',
 			'Role'       => 'App\Role',
 			'Permission' => 'App\Permission',
+
+			/*
+			 *  live environment specific but may be optional
+			 */
+			'OAuth'      => 'AdamWathan\EloquentOAuth\Facades\OAuth',
 			'Tracker'    => 'PragmaRX\Tracker\Vendor\Laravel\Facade',
 			'Excel'      => 'Maatwebsite\Excel\Facades\Excel',
 			'Recaptcha'  => 'Greggilbert\Recaptcha\Facades\Recaptcha',

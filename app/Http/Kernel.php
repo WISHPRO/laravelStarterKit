@@ -18,7 +18,7 @@ class Kernel extends HttpKernel {
 		'App\Http\Middleware\VerifyCsrfToken',
 		'Barryvdh\HttpCache\Middleware\CacheRequests',
 		#TODO
-		'Stolz\HtmlTidy\Middleware',
+		//'Stolz\HtmlTidy\Middleware',
 	];
 
 	/**

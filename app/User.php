@@ -42,7 +42,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 *
 	 * @var array
 	 */
-	protected $dates = ['deleted_at'];
+	protected $dates = ['deleted_at','last_active_time','last_login'];
 
 	/**
 	 * The attributes that should be casted to native types.
@@ -50,7 +50,10 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 * @var array
 	 */
 	protected $casts = [
-		//'key' => 'type',
+		'person_id' => 'integer',
+		'is_confirmed' => 'boolean',
+		'is_online' => 'boolean',
+		'is_active' => 'boolean',
 	];
 
 	protected $nonRevisionable = [
