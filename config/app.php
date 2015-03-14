@@ -179,6 +179,7 @@
 			'Barryvdh\HttpCache\ServiceProvider',
 			'Conner\Likeable\LikeableServiceProvider',
 			'Conner\Tagging\TaggingServiceProvider',
+			'Spatie\Browsershot\BrowsershotServiceProvider'
 
 		],
 

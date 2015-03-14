@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cd01d78c22ec6a3ed844469df0db7774",
+    "hash": "c12319f860bf9e5c068db7de14ce5f97",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -3185,6 +3185,59 @@
             ],
             "description": "Nice and easy way to handle revisions of your db.",
             "time": "2015-03-09 00:23:33"
+        },
+        {
+            "name": "spatie/browsershot",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/freekmurze/browsershot.git",
+                "reference": "855f084f9d64112c336a5d048886d8f463c38105"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/freekmurze/browsershot/zipball/855f084f9d64112c336a5d048886d8f463c38105",
+                "reference": "855f084f9d64112c336a5d048886d8f463c38105",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.*|5.*",
+                "intervention/image": "2.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.1"
+            },
+            "bin": [
+                "bin/phantomjs"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Spatie\\Browsershot": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be"
+                }
+            ],
+            "description": "Convert a webpage to an image",
+            "keywords": [
+                "browser",
+                "convert",
+                "image",
+                "laravel",
+                "phantomjs",
+                "screenshot",
+                "webpage"
+            ],
+            "time": "2015-02-03 16:43:46"
         },
         {
             "name": "spatie/laravel-glide",
