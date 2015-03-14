@@ -35,6 +35,18 @@
 	]);
 
 	Route::get('mytestpage', function(){
+		$sentence = 'Marie was enthusiastic about the upcoming trip. Her brother was also passionate about her leaving - he would finally have the house for himself.';
+		echo SentimentAnalysis::decision($sentence).'<br/>';
+		print_r(SentimentAnalysis::scores($sentence));
+		exit;
+
+		$browsershot = new Spatie\Browsershot\Browsershot();
+		$browsershot
+			->setURL('http://www.youtube.com')
+			->setWidth('1024')
+			->setHeight('768')
+			->save(storage_path().'/arstechnica-browsershot.jpg');
+		exit;
 		$user = User::find(1);
 		dd($user->details->country);
 		return Response::make('Hello kitty!');//->setTtl(60); // Cache 1 minute
