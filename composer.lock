@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "99a40f5c4084a6853e86bc99693f41f8",
+    "hash": "4137cfb26e765b3a32589a274ad586e2",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/adamwathan/eloquent-oauth.git",
-                "reference": "fae22ff46ee667c43a3d5cb24e66ce299b136bf4"
+                "reference": "574b73e5eb891deb6e1eec6bd62d85d3a265e8c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adamwathan/eloquent-oauth/zipball/fae22ff46ee667c43a3d5cb24e66ce299b136bf4",
-                "reference": "fae22ff46ee667c43a3d5cb24e66ce299b136bf4",
+                "url": "https://api.github.com/repos/adamwathan/eloquent-oauth/zipball/574b73e5eb891deb6e1eec6bd62d85d3a265e8c6",
+                "reference": "574b73e5eb891deb6e1eec6bd62d85d3a265e8c6",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 }
             ],
             "description": "Stupid simple OAuth authentication with Laravel and Eloquent",
-            "time": "2015-03-09 03:40:20"
+            "time": "2015-03-13 13:43:41"
         },
         {
             "name": "barryvdh/laravel-httpcache",
@@ -262,16 +262,16 @@
         },
         {
             "name": "caffeinated/modules",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caffeinated/modules.git",
-                "reference": "388cfdc718587266c6e92d3c862eca19bd7eeaae"
+                "reference": "4ed902acf05501065cdfa3720eaba09a0d32a764"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caffeinated/modules/zipball/388cfdc718587266c6e92d3c862eca19bd7eeaae",
-                "reference": "388cfdc718587266c6e92d3c862eca19bd7eeaae",
+                "url": "https://api.github.com/repos/caffeinated/modules/zipball/4ed902acf05501065cdfa3720eaba09a0d32a764",
+                "reference": "4ed902acf05501065cdfa3720eaba09a0d32a764",
                 "shasum": ""
             },
             "require": {
@@ -315,7 +315,7 @@
                 "laravel",
                 "modules"
             ],
-            "time": "2015-03-04 23:09:51"
+            "time": "2015-03-13 01:29:01"
         },
         {
             "name": "caffeinated/themes",
@@ -1734,16 +1734,16 @@
         },
         {
             "name": "jeremeamia/SuperClosure",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremeamia/super_closure.git",
-                "reference": "ac4394c7e21777ac48543190fb0872b2fc7f17af"
+                "reference": "b712f39c671e5ead60c7ebfe662545456aade833"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/ac4394c7e21777ac48543190fb0872b2fc7f17af",
-                "reference": "ac4394c7e21777ac48543190fb0872b2fc7f17af",
+                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/b712f39c671e5ead60c7ebfe662545456aade833",
+                "reference": "b712f39c671e5ead60c7ebfe662545456aade833",
                 "shasum": ""
             },
             "require": {
@@ -1757,7 +1757,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -1788,20 +1788,20 @@
                 "serialize",
                 "tokenizer"
             ],
-            "time": "2015-01-26 23:07:39"
+            "time": "2015-03-11 20:06:43"
         },
         {
             "name": "lanz/laravel-commentable",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RomainLanz/laravel-commentable.git",
-                "reference": "9098c677926aba2e1b53fb54ffe11bde63bc6275"
+                "reference": "717ed1cc7f5804271edeb712bf901b8323a783bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RomainLanz/laravel-commentable/zipball/9098c677926aba2e1b53fb54ffe11bde63bc6275",
-                "reference": "9098c677926aba2e1b53fb54ffe11bde63bc6275",
+                "url": "https://api.github.com/repos/RomainLanz/laravel-commentable/zipball/717ed1cc7f5804271edeb712bf901b8323a783bb",
+                "reference": "717ed1cc7f5804271edeb712bf901b8323a783bb",
                 "shasum": ""
             },
             "require": {
@@ -1834,7 +1834,7 @@
                 "commentable",
                 "laravel"
             ],
-            "time": "2015-03-12 13:42:58"
+            "time": "2015-03-13 21:03:33"
         },
         {
             "name": "laracasts/utilities",
@@ -1882,16 +1882,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.0.14",
+            "version": "v5.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f61e0098151c73db9068a6be6d86bfc60b01de25"
+                "reference": "861a1e78c84dca82fe4bd85d00349c52304eea77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f61e0098151c73db9068a6be6d86bfc60b01de25",
-                "reference": "f61e0098151c73db9068a6be6d86bfc60b01de25",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/861a1e78c84dca82fe4bd85d00349c52304eea77",
+                "reference": "861a1e78c84dca82fe4bd85d00349c52304eea77",
                 "shasum": ""
             },
             "require": {
@@ -1999,11 +1999,12 @@
                 }
             ],
             "description": "The Laravel Framework.",
+            "homepage": "http://laravel.com",
             "keywords": [
                 "framework",
                 "laravel"
             ],
-            "time": "2015-03-07 03:18:10"
+            "time": "2015-03-13 13:27:55"
         },
         {
             "name": "laravelcollective/html",
@@ -3112,16 +3113,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.3.1",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a"
+                "reference": "31454f258f10329ae7c48763eb898a75c39e0a9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
-                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/31454f258f10329ae7c48763eb898a75c39e0a9f",
+                "reference": "31454f258f10329ae7c48763eb898a75c39e0a9f",
                 "shasum": ""
             },
             "require": {
@@ -3133,7 +3134,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.3-dev"
+                    "dev-master": "5.4-dev"
                 }
             },
             "autoload": {
@@ -3160,7 +3161,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-12-05 14:17:14"
+            "time": "2015-03-14 06:06:39"
         },
         {
             "name": "symfony/console",
@@ -4427,12 +4428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mathiasgrimm/laravel-dot-env-gen.git",
-                "reference": "417a444cde2aac07465b60e9f92c494004f76552"
+                "reference": "557eceb13020ad0b6b223d6617512687bf900872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mathiasgrimm/laravel-dot-env-gen/zipball/417a444cde2aac07465b60e9f92c494004f76552",
-                "reference": "417a444cde2aac07465b60e9f92c494004f76552",
+                "url": "https://api.github.com/repos/mathiasgrimm/laravel-dot-env-gen/zipball/557eceb13020ad0b6b223d6617512687bf900872",
+                "reference": "557eceb13020ad0b6b223d6617512687bf900872",
                 "shasum": ""
             },
             "require": {
@@ -4461,7 +4462,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2015-03-07 13:03:36"
+            "time": "2015-03-13 10:30:59"
         },
         {
             "name": "maximebf/debugbar",
@@ -5541,13 +5542,13 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "intervention/imagecache": 20,
-        "adamwathan/eloquent-oauth": 20,
-        "barryvdh/laravel-httpcache": 20,
         "caffeinated/modules": 20,
         "caffeinated/menus": 20,
         "zizaco/entrust": 20,
-        "sofa/revisionable": 20,
         "greggilbert/recaptcha": 20,
+        "sofa/revisionable": 20,
+        "barryvdh/laravel-httpcache": 20,
+        "adamwathan/eloquent-oauth": 20,
         "mathiasgrimm/laravel-dot-env-gen": 20,
         "fzaninotto/faker": 20
     },
