@@ -1,3 +1,6 @@
 <!-- Scripts -->
-	<script src="{{ asset('/js/vendor.js') }}"></script>
-	<script src="{{ asset('/js/laroute.js') }}"></script>
+	<script src="{{ elixir('js/vendor.js') }}" type="text/javascript"></script>
+	<script src="{{ elixir('js/laroute.js') }}" type="text/javascript"></script>
+	<script type="text/javascript">
+		$.material.init();
+	</script>
