@@ -1,4 +1,4 @@
-@extends('app')
+@extends('edmin::app')
 
 @section('content')
 <div class="container-fluid">
@@ -7,7 +7,7 @@
 			<div class="panel panel-default">
 				<div class="panel-heading">Reset Password</div>
 				<div class="panel-body">
-					@include('errors._errorlist')
+					@include('edmin::errors._errorlist')
 
 					<form class="form-horizontal" role="form" method="POST" action="/password/reset">
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">

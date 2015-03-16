@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'active' => 'bootstrap',
+	'active' => 'default',
 	
 	/*
 	|--------------------------------------------------------------------------
@@ -41,6 +41,6 @@ return [
 	|
 	*/
 
-	'path' => public_path('themes'),
+	'path' => base_path('resources/themes'),
 
 ];

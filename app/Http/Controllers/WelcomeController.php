@@ -34,7 +34,8 @@ class WelcomeController extends Controller {
 //		Factory::$factoriesPath = base_path() . '/tests/factories';
 //		$userAttributes = Factory::build('App\User');
 //		return $userAttributes;
-		return view('welcome');
+		//return view('welcome');
+		return \Theme::view('welcome');
 	}
 
 }
