@@ -1,6 +1,5 @@
 <?php
 	use App\User;
-	use App\Person;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -34,21 +33,20 @@
 		'password' => 'Auth\PasswordController',
 	]);
 
-	Route::get('mytestpage', function(){
+	Route::group(['prefix' => 'test'], function()
+	{
+		Route::get('index', [
+			'as' => 'test.index', 'uses' => 'TestController@index'
+		]);
+		Route::get('browsershot', [
+			'as' => 'test.browsershot', 'uses' => 'TestController@browsershot'
+		]);
+		Route::get('sentiment', [
+			'as' => 'test.sentiment', 'uses' => 'TestController@sentiment'
+		]);
+		Route::get('httpcache', [
+			'as' => 'test.httpcache', 'uses' => 'TestController@httpcache'
+		]);
 
-		$browsershot = new Spatie\Browsershot\Browsershot();
-		$browsershot
-			->setURL('http://www.yahoo.com')
-			->setWidth('1024')
-			->setHeight('768')
-			->save(storage_path().'/arstechnica-browsershot.jpg');
-		exit;
-		$sentence = 'Marie was enthusiastic about the upcoming trip. Her brother was also passionate about her leaving - he would finally have the house for himself.';
-		echo SentimentAnalysis::decision($sentence).'<br/>';
-		print_r(SentimentAnalysis::scores($sentence));
-		exit;
 
-		$user = User::find(1);
-		dd($user->details->country);
-		return Response::make('Hello kitty!');//->setTtl(60); // Cache 1 minute
 	});
