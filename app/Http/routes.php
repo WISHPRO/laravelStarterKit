@@ -35,7 +35,7 @@
 
 	Route::group(['prefix' => 'test'], function()
 	{
-		Route::get('index', [
+		Route::get('/', [
 			'as' => 'test.index', 'uses' => 'TestController@index'
 		]);
 		Route::get('browsershot', [

@@ -10,6 +10,10 @@ use App\User;
 
 class TestController extends Controller {
 
+	public function index(){
+		return \Theme::view('test.index');
+	}
+
 	public function browsershot(){
 		$browsershot = new Browsershot();
 		$browsershot
