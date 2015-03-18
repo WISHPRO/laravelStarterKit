@@ -21,15 +21,6 @@ elixir(function(mix) {
 
      mix.less('app.less');
 
-     mix.version([
-          'css/app.css',
-          'js/vendor.js',
-          'js/laroute.js'
-     ]);
-
-     // Edmin Theme
-
-     //mix.less('../../themes/edmin/assets/less/edmin.less','public/themes/edmin/css');
 });
 
 elixir(function(mix) {
@@ -39,6 +30,25 @@ elixir(function(mix) {
 
      mix.scripts([
           '../assets/bower/jquery/dist/jquery.js',
-          '../assets/bower/bootstrap/dist/js/bootstrap.js'
-     ], 'public/js/vendor.js');
+          '../assets/bower/jquery-ui/jquery-ui.js',
+          '../assets/bower/bootstrap/dist/js/bootstrap.js',
+          '../assets/bower/flot/jquery.flot.js',
+          '../assets/bower/flot/jquery.flot.resize.js',
+          '../assets/bower/datatables/media/js/jquery.dataTables.js',
+     ], 'public/themes/edmin/js/edmin-vendor.js');
+     mix.copy('resources/themes/edmin/assets/js/edmin-common.js', 'public/themes/edmin/js/edmin-common.js');
+     mix.copy('resources/themes/edmin/assets/images', 'public/themes/edmin/images');
+
+});
+
+
+elixir(function(mix) {
+     mix.version([
+          'css/app.css',
+          'js/vendor.js',
+          'js/laroute.js',
+          'themes/edmin/css/edmin.css',
+          'themes/edmin/js/edmin-vendor.js',
+          'themes/edmin/js/edmin-common.js'
+     ]);
 });
