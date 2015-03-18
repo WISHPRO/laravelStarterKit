@@ -12,18 +12,33 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-   mix.scripts([
-    '../assets/bower/jquery/dist/jquery.js',
-    '../assets/bower/bootstrap/dist/js/bootstrap.js'
-   ], 'public/js/vendor.js');
 
-   mix.less('app.less');
+     // Default Theme
+     mix.scripts([
+     '../assets/bower/jquery/dist/jquery.js',
+     '../assets/bower/bootstrap/dist/js/bootstrap.js'
+     ], 'public/js/vendor.js');
 
-   mix.version([
-     'css/app.css',
-     'js/vendor.js',
-     'js/laroute.js'
-   ]);
+     mix.less('app.less');
 
+     mix.version([
+          'css/app.css',
+          'js/vendor.js',
+          'js/laroute.js'
+     ]);
 
+     // Edmin Theme
+
+     //mix.less('../../themes/edmin/assets/less/edmin.less','public/themes/edmin/css');
+});
+
+elixir(function(mix) {
+
+     // Edmin Theme
+     mix.less('../../themes/edmin/assets/less/edmin.less','public/themes/edmin/css');
+
+     mix.scripts([
+          '../assets/bower/jquery/dist/jquery.js',
+          '../assets/bower/bootstrap/dist/js/bootstrap.js'
+     ], 'public/js/vendor.js');
 });
