@@ -170,7 +170,6 @@
 			 *  live environment specific but may be optional
 			 */
 			'AdamWathan\EloquentOAuth\EloquentOAuthServiceProvider',
-			'Frozennode\Administrator\AdministratorServiceProvider',
 			'Sofa\Revisionable\Laravel\ServiceProvider',
 			'PragmaRX\Tracker\Vendor\Laravel\ServiceProvider',
 			'Maatwebsite\Excel\ExcelServiceProvider',

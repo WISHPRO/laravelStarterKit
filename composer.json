@@ -27,7 +27,6 @@
 		"pragmarx/tracker": "~1.0",
 		"barryvdh/laravel-httpcache": "0.2.x@dev",
 		"adamwathan/eloquent-oauth": "dev-laravel-5",
-		"frozennode/administrator": "5.*",
 		"rtconner/laravel-likeable": "~1.0.0",
 		"rtconner/laravel-tagging": "~1.0.2",
 		"spatie/browsershot": "~1.1",
