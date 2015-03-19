@@ -8,6 +8,7 @@
 		"laravel/framework": "5.0.*",
 		"doctrine/dbal": "~2.5",
 		"illuminate/html": "~5.0",
+		"esensi/model": "0.5.*",
 		"intervention/image": "~2.0",
 		"intervention/imagecache": "dev-master",
 		"filp/whoops" : "~1.0",
@@ -17,9 +18,8 @@
 		"caffeinated/menus": "~1.0@dev",
 		"zizaco/entrust": "dev-laravel-5",
 		"laracasts/utilities": "~2.0",
+
 		"geoip/geoip": "~1.14",
-
-
 		"greggilbert/recaptcha": "dev-master",
 		"lanz/laravel-commentable": "~2.0",
 		"sofa/revisionable": "~1.0@dev",
