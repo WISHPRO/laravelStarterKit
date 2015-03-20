@@ -47,6 +47,21 @@
 		Route::get('httpcache', [
 			'as' => 'test.httpcache', 'uses' => 'TestController@httpcache'
 		]);
-
-
 	});
+
+	Route::group(['prefix' => 'dashboard'], function()
+	{
+		Route::get('/', [
+			'as' => 'dashboard.index', 'uses' => 'DashboardController@index', 'middleware' => 'auth'
+		]);
+		Route::get('users', [
+			'as' => 'dashboard.users', 'uses' => 'DashboardController@users', 'middleware' => 'auth'
+		]);
+		Route::get('roles', [
+			'as' => 'dashboard.roles', 'uses' => 'DashboardController@roles', 'middleware' => 'auth'
+		]);
+		Route::get('permissions', [
+			'as' => 'dashboard.permissions', 'uses' => 'DashboardController@permissions', 'middleware' => 'auth'
+		]);
+	});
+

@@ -9,6 +9,8 @@
 		public function run()
 		{
 			DB::table('roles')->truncate();
+			DB::table('permission_role')->truncate();
+
 			$roles = array(
 				"1" => array("name" => "superadmin", "display_name" => "Superadmin", "description" => "The God!"),
 				"2" => array("name" => "admin", "display_name" => "Admin", "description" => "Look ma, they made me admin!"),
@@ -22,8 +24,8 @@
 					"description"  => $role["description"]
 				]);
 				if($role->name == 'superadmin'){
-					$permissions =  Permission::all();
-					$role->attachPermissions($permissions);
+					$permissions =  Permission::all()->lists('id');
+					$role->perms()->sync($permissions);
 				}
 			}
 		}

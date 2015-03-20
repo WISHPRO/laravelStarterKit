@@ -12,6 +12,7 @@ class UsersTableSeeder extends Seeder {
     public function run()
     {
         DB::table('users')->truncate();
+        DB::table('role_user')->truncate();
         // TestDummy::times(20)->create('App\Post');
         $person = Person::create([
              'country_id' => '1',
