@@ -2,6 +2,9 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\User;
+use App\Permission;
+use App\Role;
 
 use Illuminate\Http\Request;
 
@@ -14,20 +17,32 @@ class DashboardController extends Controller {
 	 */
 	public function index()
 	{
-		return \Theme::view('dashboard.index');
+		$userCount = User::all()->count();
+		return \Theme::view('dashboard.index',[
+			'userCount' => $userCount
+		]);
 	}
 
 	public function users()
 	{
-		return \Theme::view('dashboard.users');
+		$users = User::all();
+		return \Theme::view('dashboard.users',[
+			'users' => $users
+		]);
 	}
 	public function roles()
 	{
-		return \Theme::view('dashboard.roles');
+		$roles = Role::all();
+		return \Theme::view('dashboard.roles',[
+			'roles' => $roles
+		]);
 	}
 	public function permissions()
 	{
-		return \Theme::view('dashboard.permissions');
+		$permissions = Permission::all();
+		return \Theme::view('dashboard.permissions',[
+			'permissions' => $permissions
+		]);
 	}
 
 }
