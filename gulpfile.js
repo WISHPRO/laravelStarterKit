@@ -16,9 +16,10 @@ elixir(function(mix) {
      // Default Theme
      mix.scripts([
      '../assets/bower/jquery/dist/jquery.js',
-     '../assets/bower/bootstrap/dist/js/bootstrap.js'
+     '../assets/bower/bootstrap/dist/js/bootstrap.js',
+     '../assets/bower/datatables/media/js/jquery.dataTables.js'
      ], 'public/js/vendor.js');
-
+     mix.copy('resources/assets/js/common.js', 'public/js/common.js');
      mix.less('app.less');
 
 });
@@ -47,6 +48,7 @@ elixir(function(mix) {
           'css/app.css',
           'js/vendor.js',
           'js/laroute.js',
+          'public/js/common.js',
           'themes/edmin/css/edmin.css',
           'themes/edmin/js/edmin-vendor.js',
           'themes/edmin/js/edmin-common.js'

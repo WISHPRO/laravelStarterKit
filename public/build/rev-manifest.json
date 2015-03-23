@@ -1,7 +1,8 @@
 {
   "css/app.css": "css/app-e247bc5c.css",
-  "js/vendor.js": "js/vendor-903114f2.js",
+  "js/vendor.js": "js/vendor-809ffbf5.js",
   "js/laroute.js": "js/laroute-4b66f0c7.js",
+  "js/common.js": "js/common-34153dec.js",
   "themes/edmin/css/edmin.css": "themes/edmin/css/edmin-ff8e637c.css",
   "themes/edmin/js/edmin-vendor.js": "themes/edmin/js/edmin-vendor-2d34ae8b.js",
   "themes/edmin/js/edmin-common.js": "themes/edmin/js/edmin-common-c2544bba.js"
