@@ -30,7 +30,8 @@
 		"rtconner/laravel-likeable": "~1.0.0",
 		"rtconner/laravel-tagging": "~1.0.2",
 		"spatie/browsershot": "~1.1",
-		"antoineaugusti/laravel-sentiment-analysis": "~2.0"
+		"antoineaugusti/laravel-sentiment-analysis": "~2.0",
+		"rap2hpoutre/laravel-log-viewer": "dev-master"
 
 	},
 	"require-dev": {

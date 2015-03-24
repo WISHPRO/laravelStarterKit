@@ -180,7 +180,7 @@
 			'Conner\Tagging\TaggingServiceProvider',
 			'Spatie\Browsershot\BrowsershotServiceProvider',
 			'Antoineaugusti\LaravelSentimentAnalysis\LaravelSentimentAnalysisServiceProvider',
-
+			'Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider',
 		],
 
 		/*

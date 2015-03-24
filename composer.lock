@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ece6db2e7529e02f7bcc157c3b7e9978",
+    "hash": "469fb9b33b060677df4b37c3fae539ab",
     "packages": [
         {
             "name": "adamwathan/eloquent-oauth",
@@ -1476,16 +1476,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "572806fd083b622dd430d76c34564459596fef2a"
+                "reference": "8f3761154b4c1f5128365dfc32cbf757f27d97b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/572806fd083b622dd430d76c34564459596fef2a",
-                "reference": "572806fd083b622dd430d76c34564459596fef2a",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/8f3761154b4c1f5128365dfc32cbf757f27d97b6",
+                "reference": "8f3761154b4c1f5128365dfc32cbf757f27d97b6",
                 "shasum": ""
             },
             "require": {
@@ -1528,7 +1528,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2015-03-09 13:03:15"
+            "time": "2015-03-18 17:41:04"
         },
         {
             "name": "intervention/imagecache",
@@ -1862,16 +1862,16 @@
         },
         {
             "name": "lanz/laravel-commentable",
-            "version": "v2.0.4",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RomainLanz/laravel-commentable.git",
-                "reference": "d6601175c337fadd82a366081e930c732c6d8bb9"
+                "reference": "3c888f05d8834498a6ef2643f7f9c59167fdd2f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RomainLanz/laravel-commentable/zipball/d6601175c337fadd82a366081e930c732c6d8bb9",
-                "reference": "d6601175c337fadd82a366081e930c732c6d8bb9",
+                "url": "https://api.github.com/repos/RomainLanz/laravel-commentable/zipball/3c888f05d8834498a6ef2643f7f9c59167fdd2f4",
+                "reference": "3c888f05d8834498a6ef2643f7f9c59167fdd2f4",
                 "shasum": ""
             },
             "require": {
@@ -1912,7 +1912,7 @@
                 "nested set",
                 "threaded"
             ],
-            "time": "2015-03-15 19:50:05"
+            "time": "2015-03-23 10:53:38"
         },
         {
             "name": "laracasts/utilities",
@@ -1960,16 +1960,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.0.17",
+            "version": "v5.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b4abcbc98885e1b339acc7e993d2758d47f01ecc"
+                "reference": "b21be29a1fb12c84ab4e0b723e9c11492d0b25fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b4abcbc98885e1b339acc7e993d2758d47f01ecc",
-                "reference": "b4abcbc98885e1b339acc7e993d2758d47f01ecc",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b21be29a1fb12c84ab4e0b723e9c11492d0b25fe",
+                "reference": "b21be29a1fb12c84ab4e0b723e9c11492d0b25fe",
                 "shasum": ""
             },
             "require": {
@@ -2082,7 +2082,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-03-17 21:45:31"
+            "time": "2015-03-21 16:10:01"
         },
         {
             "name": "laravelcollective/html",
@@ -2219,20 +2219,20 @@
         },
         {
             "name": "league/glide",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/glide.git",
-                "reference": "abf28640728038ca2d9f31c69ae3f158c73406ce"
+                "reference": "627e06a1f9000185dbb8c239bf0c358edda83f4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/glide/zipball/abf28640728038ca2d9f31c69ae3f158c73406ce",
-                "reference": "abf28640728038ca2d9f31c69ae3f158c73406ce",
+                "url": "https://api.github.com/repos/thephpleague/glide/zipball/627e06a1f9000185dbb8c239bf0c358edda83f4a",
+                "reference": "627e06a1f9000185dbb8c239bf0c358edda83f4a",
                 "shasum": ""
             },
             "require": {
-                "intervention/image": "~2.0",
+                "intervention/image": "~2.1",
                 "league/flysystem": "~1.0",
                 "php": ">=5.4",
                 "symfony/http-foundation": "~2.3",
@@ -2240,6 +2240,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "~0.9",
+                "phpunit/php-token-stream": ">=1.3.0",
                 "phpunit/phpunit": "~4.4"
             },
             "type": "library",
@@ -2276,20 +2277,20 @@
                 "manipulation",
                 "processing"
             ],
-            "time": "2015-02-26 23:03:26"
+            "time": "2015-03-19 19:53:08"
         },
         {
             "name": "maatwebsite/excel",
-            "version": "2.0.1",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Maatwebsite/Laravel-Excel.git",
-                "reference": "cd2ecfcc5208d96445df6d5b9170efb3786509a3"
+                "reference": "5da62ad9c8250fe332a6322d0b110559174e30d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/cd2ecfcc5208d96445df6d5b9170efb3786509a3",
-                "reference": "cd2ecfcc5208d96445df6d5b9170efb3786509a3",
+                "url": "https://api.github.com/repos/Maatwebsite/Laravel-Excel/zipball/5da62ad9c8250fe332a6322d0b110559174e30d5",
+                "reference": "5da62ad9c8250fe332a6322d0b110559174e30d5",
                 "shasum": ""
             },
             "require": {
@@ -2343,7 +2344,7 @@
                 "import",
                 "laravel"
             ],
-            "time": "2015-02-16 11:12:55"
+            "time": "2015-03-19 13:47:43"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -2564,16 +2565,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528"
+                "reference": "edbf162e4cf116102d95eb635608b7d310cc01c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ac05ef6f95bf8361549604b6031c115f92f39528",
-                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/edbf162e4cf116102d95eb635608b7d310cc01c6",
+                "reference": "edbf162e4cf116102d95eb635608b7d310cc01c6",
                 "shasum": ""
             },
             "require": {
@@ -2583,7 +2584,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -2605,7 +2606,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-01-18 11:29:59"
+            "time": "2015-03-22 16:17:25"
         },
         {
             "name": "phpoffice/phpexcel",
@@ -2989,6 +2990,49 @@
             "time": "2015-03-17 15:17:33"
         },
         {
+            "name": "rap2hpoutre/laravel-log-viewer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rap2hpoutre/laravel-log-viewer.git",
+                "reference": "d2655029d8c00ad5cad7a99b83f14e1ec46202f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rap2hpoutre/laravel-log-viewer/zipball/d2655029d8c00ad5cad7a99b83f14e1ec46202f9",
+                "reference": "d2655029d8c00ad5cad7a99b83f14e1ec46202f9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.2.*|5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/controllers"
+                ],
+                "psr-0": {
+                    "Rap2hpoutre\\LaravelLogViewer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "rap2hpoutre",
+                    "email": "raphael@ornikar.com"
+                }
+            ],
+            "description": "A Laravel log reader",
+            "keywords": [
+                "log",
+                "log-reader",
+                "log-viewer",
+                "logging"
+            ],
+            "time": "2015-03-23 14:46:48"
+        },
+        {
             "name": "react/promise",
             "version": "v2.2.0",
             "source": {
@@ -3216,16 +3260,16 @@
         },
         {
             "name": "sofa/revisionable",
-            "version": "v1.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jarektkaczyk/revisionable.git",
-                "reference": "05e1ef8c9209550d3967601cb5d645dc643fe260"
+                "reference": "70510473bad6cc482ad18e5edbd49556cc7f3d5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jarektkaczyk/revisionable/zipball/05e1ef8c9209550d3967601cb5d645dc643fe260",
-                "reference": "05e1ef8c9209550d3967601cb5d645dc643fe260",
+                "url": "https://api.github.com/repos/jarektkaczyk/revisionable/zipball/70510473bad6cc482ad18e5edbd49556cc7f3d5c",
+                "reference": "70510473bad6cc482ad18e5edbd49556cc7f3d5c",
                 "shasum": ""
             },
             "require": {
@@ -3262,7 +3306,7 @@
                 }
             ],
             "description": "Nice and easy way to handle revisions of your db.",
-            "time": "2015-03-09 00:23:33"
+            "time": "2015-03-23 10:36:12"
         },
         {
             "name": "spatie/browsershot",
@@ -3319,16 +3363,16 @@
         },
         {
             "name": "spatie/laravel-glide",
-            "version": "2.0.2",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/freekmurze/laravel-glide.git",
-                "reference": "2cbaed495408c3bd1852f8cf703163073af94109"
+                "reference": "b55526b18b5b6bbaeb05c1f10a936829101619a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/freekmurze/laravel-glide/zipball/2cbaed495408c3bd1852f8cf703163073af94109",
-                "reference": "2cbaed495408c3bd1852f8cf703163073af94109",
+                "url": "https://api.github.com/repos/freekmurze/laravel-glide/zipball/b55526b18b5b6bbaeb05c1f10a936829101619a6",
+                "reference": "b55526b18b5b6bbaeb05c1f10a936829101619a6",
                 "shasum": ""
             },
             "require": {
@@ -3337,7 +3381,8 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "codeception/codeception": "2.*"
+                "codeception/codeception": "2.*",
+                "mockery/mockery": "~0.9.3"
             },
             "type": "library",
             "autoload": {
@@ -3356,7 +3401,7 @@
                 }
             ],
             "description": "A Glide Service Provider for Laravel",
-            "time": "2015-03-16 08:25:07"
+            "time": "2015-03-23 16:50:02"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4385,12 +4430,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Zizaco/entrust.git",
-                "reference": "73c3066b341ea3715e361d75badc9f4ede4db585"
+                "reference": "305916c40ed35dd6ebb81379db51ec582df19623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Zizaco/entrust/zipball/73c3066b341ea3715e361d75badc9f4ede4db585",
-                "reference": "73c3066b341ea3715e361d75badc9f4ede4db585",
+                "url": "https://api.github.com/repos/Zizaco/entrust/zipball/305916c40ed35dd6ebb81379db51ec582df19623",
+                "reference": "305916c40ed35dd6ebb81379db51ec582df19623",
                 "shasum": ""
             },
             "require": {
@@ -4444,7 +4489,7 @@
                 "permission",
                 "roles"
             ],
-            "time": "2015-03-18 16:51:13"
+            "time": "2015-03-20 15:05:21"
         }
     ],
     "packages-dev": [
@@ -4758,12 +4803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mathiasgrimm/laravel-dot-env-gen.git",
-                "reference": "557eceb13020ad0b6b223d6617512687bf900872"
+                "reference": "2d58cb466864789eee7a5519501dcbe1bd852903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mathiasgrimm/laravel-dot-env-gen/zipball/557eceb13020ad0b6b223d6617512687bf900872",
-                "reference": "557eceb13020ad0b6b223d6617512687bf900872",
+                "url": "https://api.github.com/repos/mathiasgrimm/laravel-dot-env-gen/zipball/2d58cb466864789eee7a5519501dcbe1bd852903",
+                "reference": "2d58cb466864789eee7a5519501dcbe1bd852903",
                 "shasum": ""
             },
             "require": {
@@ -4792,7 +4837,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2015-03-13 10:30:59"
+            "time": "2015-03-22 21:23:17"
         },
         {
             "name": "maximebf/debugbar",
@@ -5879,6 +5924,7 @@
         "sofa/revisionable": 20,
         "barryvdh/laravel-httpcache": 20,
         "adamwathan/eloquent-oauth": 20,
+        "rap2hpoutre/laravel-log-viewer": 20,
         "mathiasgrimm/laravel-dot-env-gen": 20,
         "fzaninotto/faker": 20
     },
